@@ -14,12 +14,16 @@ public class FindMaxSumSubArrayFromArray {
     public static void FindMaxSumMethod1(int[] array) {
         int beginIndex = 0;
         int maxSum = array[0];
+        int currentMaxSum = array[0];
         for (int i = 1; i < array.length; i++) {
-            if (maxSum < 0) {
+            if (currentMaxSum < 0) {
                 beginIndex = i;
-                maxSum = array[i];
+                currentMaxSum = array[i];
             } else {
-                maxSum += array[i];
+                currentMaxSum += array[i];
+            }
+            if (currentMaxSum > maxSum) {
+                maxSum = currentMaxSum;
             }
         }
         System.out.println("The method1 beginIndex is " + beginIndex);
@@ -29,13 +33,18 @@ public class FindMaxSumSubArrayFromArray {
     //Si+1=max(Si+array[i+1],array[i+1])
     public static void FindMaxSumMethod2(int[] array) {
         int beginIndex = 0;
-        int maxSum = 0;
+        int maxSum = array[0];
+        int currentMaxSum = array[0];
         for (int i = 0; i < array.length; i++) {
-            if (maxSum + array[i] > array[i]) {
-                maxSum = maxSum + array[i];
+            if (currentMaxSum + array[i] > array[i]) {
+                currentMaxSum = currentMaxSum + array[i];
             } else {
                 beginIndex = i;
-                maxSum = array[i];
+                currentMaxSum = array[i];
+            }
+
+            if (currentMaxSum > maxSum) {
+                maxSum = currentMaxSum;
             }
 
         }

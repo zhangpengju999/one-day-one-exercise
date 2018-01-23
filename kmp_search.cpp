@@ -11,7 +11,7 @@ vector<int> compute_prefix_function(const string &P) {
     int k = 0;
     for (int q = 1; q < m; ++q) {
         while (k > 0 and P[k] != P[q]) 
-            k = pi[k];
+            k = pi[k - 1];
         if (P[k] == P[q])
             k++;
         pi[q] = k;
@@ -33,7 +33,7 @@ vector<int> kmp_matcher(const string &T, const string &P) {
     int q = 0;
     for (int i = 0; i < n; ++i) {
         while (q > 0 && P[q] != T[i]) {
-            q = pi[q];
+            q = pi[q - 1];
         }
         if (P[q] == T[i]) 
             q++;

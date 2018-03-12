@@ -15,6 +15,7 @@
 ~ MPS（max_product） 最大积连续子数组
 ~ maxWaterInArray 数组水槽最大蓄水量
 ~ carrybag  01背包+完全背包
+~ heap  最大堆最小堆实现+堆排序+求数组第K大
 
 #---- petemper ----#
 

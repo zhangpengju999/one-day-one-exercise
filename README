@@ -1,0 +1,34 @@
+# one-day-one-exercise
+
+^_^ 责任人 ^_^:
+
+#---- han ----#
+
+~ LCS 最长公共子序列（子串)
+~ LIS 最长升序子序列        
+~ hypothesis_testing 假设检验第一讲验证样本分布
+~ Levenshtein 编辑距离
+
+#---- bijingrui ----#
+
+~ mergeSort 归并排序&逆序对
+~ MPS（max_product） 最大积连续子数组
+~ maxWaterInArray 数组水槽最大蓄水量
+~ carrybag  01背包+完全背包
+~ heap  最大堆最小堆实现+堆排序+求数组第K大
+~ hh_8  8皇后
+
+#---- petemper ----#
+
+~ FindPathInChamber 全连通迷宫最优路径
+~ MSS（FindMaxSumSubArrayFromArray） 最大和连续子数组
+~ SSC(SteelStickCut)钢条切割问题
+~ LSWRC(LongestSubstringWithoutRepeatingCharacters) 最长不重复字串问题
+~ TwoSum(TwoSUm and Three Sum Problems)两个数相加、三个数相加等问题
+
+#---- hao ----#
+
+~ pow 数x的n次幂
+~ stock	买卖股票最佳时机1,2,3
+
+

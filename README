@@ -24,6 +24,8 @@
 ~ MSS（FindMaxSumSubArrayFromArray） 最大和连续子数组
 ~ SSC(SteelStickCut)钢条切割问题
 ~ LSWRC(LongestSubstringWithoutRepeatingCharacters) 最长不重复字串问题
+~ TwoSum(TwoSUm and Three Sum Problems)两个数相加、三个数相加等问题
+~ TimSort（JDK的TimSort实现）  蒂姆排序
 
 #---- hao ----#
 
